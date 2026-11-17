@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TradeBridge.AI connects Korean suppliers with buyers in Tajikistan. Discover Korean products and international trade opportunities.">
+<title>TradeBridge.AI | Korea – Tajikistan Trade</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#172b43;background:#f6f8fc;line-height:1.6}
+header{background:#102b4e;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.logo{font-size:24px;font-weight:800;color:white}
+.logo span{color:#49b5f5}
+nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-size:14px}
+select{padding:9px;border-radius:7px;border:0}
+.hero{background:linear-gradient(120deg,#102b4e,#12639a);color:white;padding:85px 8%;text-align:center}
+.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.2;margin-bottom:20px}
+.hero p{max-width:680px;margin:0 auto 25px;color:#e0edf8}
+.btn{display:inline-block;background:#ffb52e;color:#142b45;padding:13px 24px;border-radius:7px;text-decoration:none;font-weight:bold;border:0;cursor:pointer}
+section{padding:60px 8%}
+.section-title{text-align:center;margin-bottom:32px}
+.section-title h2{font-size:30px;color:#102b4e}
+.section-title p{color:#65758b}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.card{background:white;border-radius:13px;padding:24px;box-shadow:0 5px 20px #102b4e12}
+.card .emoji{font-size:40px;margin-bottom:12px}
+.card h3{margin-bottom:8px;color:#15395e}
+.card p{color:#65758b;font-size:14px;margin-bottom:15px}
+.tag{display:inline-block;background:#e7f3ff;color:#12639a;padding:4px 10px;border-radius:20px;font-size:12px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.step{background:#fff;padding:23px;border-radius:12px;text-align:center}
+.step strong{display:block;color:#1686c4;font-size:25px}
+.contact{background:#eaf2fa}
+form{max-width:550px;margin:auto;background:white;padding:25px;border-radius:12px}
+input,textarea{width:100%;padding:12px;margin:9px 0 16px;border:1px solid #ccd6e2;border-radius:6px;font:inherit}
+footer{background:#102b4e;color:#d9e6f3;text-align:center;padding:28px}
+footer p{font-size:13px;margin-top:5px}
+@media(max-width:600px){header{justify-content:center}nav{justify-content:center}.hero{padding:65px 6%}section{padding:45px 6%}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">TradeBridge<span>.AI</span></div>
+<nav>
+<a href="#home" data-i="home">Home</a>
+<a href="#products" data-i="products">Products</a>
+<a href="#how" data-i="how">How It Works</a>
+<a href="#about" data-i="about">About</a>
+<a href="#contact" data-i="contact">Contact</a>
+<select id="language" aria-label="Select language" onchange="changeLanguage(this.value)">
+<option value="en">🇬🇧 English</option>
+<option value="ko">🇰🇷 한국어</option>
+<option value="ru">🇷🇺 Русский</option>
+<option value="tg">🇹🇯 Тоҷикӣ</option>
+</select>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1 data-i="headline">Your Trusted Bridge to Korean Products</h1>
+<p data-i="intro">Connecting Korean suppliers with buyers in Tajikistan. Discover products, explore business opportunities and make international trade easier.</p>
+<a href="#products" class="btn" data-i="explore">Explore Products</a>
+</div>
+
+<section id="products">
+<div class="section-title">
+<h2 data-i="productTitle">Explore Korean Products</h2>
+<p data-i="productSub">Discover products from Korea for the Tajikistan market.</p>
+</div>
+<div class="grid">
+<div class="card">
+<div class="emoji">🚗</div>
+<h3 data-i="auto">Automotive Spare Parts</h3>
+<p data-i="autoDesc">Spare parts and accessories for Korean and international vehicles.</p>
+<span class="tag">Korea → Tajikistan</span>
+</div>
+<div class="card">
+<div class="emoji">💄</div>
+<h3 data-i="beauty">Korean Cosmetics</h3>
+<p data-i="beautyDesc">Explore skincare, beauty and personal care products.</p>
+<span class="tag">Korea → Tajikistan</span>
+</div>
+<div class="card">
+<div class="emoji">🏥</div>
+<h3 data-i="medical">Medical Equipment</h3>
+<p data-i="medicalDesc">Discover medical devices and healthcare equipment.</p>
+<span class="tag">Korea → Tajikistan</span>
+</div>
+</div>
+</section>
+
+<section id="how" style="background:#edf3f9">
+<div class="section-title">
+<h2 data-i="howTitle">How TradeBridge Works</h2>
+<p data-i="howSub">A simple process for international trade.</p>
+</div>
+<div class="steps">
+<div class="step"><strong>01</strong><h3 data-i="step1">Find Products</h3><p data-i="step1d">Explore products from Korean suppliers.</p></div>
+<div class="step"><strong>02</strong><h3 data-i="step2">Send Inquiry</h3><p data-i="step2d">Contact us with your product requirements.</p></div>
+<div class="step"><strong>03</strong><h3 data-i="step3">Check & Confirm</h3><p data-i="step3d">Discuss pricing, availability and shipping.</p></div>
+<div class="step"><strong>04</strong><h3 data-i="step4">Arrange Delivery</h3><p data-i="step4d">Coordinate your order from Korea to Tajikistan.</p></div>
+</div>
+</section>
+
+<section id="about">
+<div class="section-title">
+<h2 data-i="aboutTitle">About TradeBridge.AI</h2>
+<p data-i="aboutText">TradeBridge.AI is a sample international trade platform designed to connect Korean suppliers with Tajikistani buyers. Our mission is to make cross-border purchasing simpler, more transparent and more accessible.</p>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="section-title">
+<h2 data-i="contactTitle">Contact TradeBridge</h2>
+<p data-i="contactSub">Interested in Korean products? Send us an inquiry.</p>
+</div>
+<form onsubmit="sendInquiry(event)">
+<label data-i="name">Your Name</label>
+<input required placeholder="Enter your name">
+<label data-i="email">Email Address</label>
+<input type="email" required placeholder="Enter your email">
+<label data-i="message">Your Inquiry</label>
+<textarea required rows="4" placeholder="Tell us what products you need"></textarea>
+<button class="btn" type="submit" data-i="send">Send Inquiry</button>
+</form>
+</section>
+
+<footer>
+<div class="logo">TradeBridge<span>.AI</span></div>
+<p data-i="footer">Connecting Korea 🇰🇷 with Tajikistan 🇹🇯</p>
+<p>© 2026 TradeBridge.AI | Sample Platform</p>
+</footer>
+
+<script>
+const translations = {
+en:{
+home:"Home",products:"Products",how:"How It Works",about:"About",contact:"Contact",
+headline:"Your Trusted Bridge to Korean Products",
+intro:"Connecting Korean suppliers with buyers in Tajikistan. Discover products, explore business opportunities and make international trade easier.",
+explore:"Explore Products",productTitle:"Explore Korean Products",productSub:"Discover products from Korea for the Tajikistan market.",
+auto:"Automotive Spare Parts",autoDesc:"Spare parts and accessories for Korean and international vehicles.",
+beauty:"Korean Cosmetics",beautyDesc:"Explore skincare, beauty and personal care products.",
+medical:"Medical Equipment",medicalDesc:"Discover medical devices and healthcare equipment.",
+howTitle:"How TradeBridge Works",howSub:"A simple process for international trade.",
+step1:"Find Products",step1d:"Explore products from Korean suppliers.",
+step2:"Send Inquiry",step2d:"Contact us with your product requirements.",
+step3:"Check & Confirm",step3d:"Discuss pricing, availability and shipping.",
+step4:"Arrange Delivery",step4d:"Coordinate your order from Korea to Tajikistan.",
+aboutTitle:"About TradeBridge.AI",aboutText:"TradeBridge.AI is a sample international trade platform designed to connect Korean suppliers with Tajikistani buyers. Our mission is to make cross-border purchasing simpler, more transparent and more accessible.",
+contactTitle:"Contact TradeBridge",contactSub:"Interested in Korean products? Send us an inquiry.",
+name:"Your Name",email:"Email Address",message:"Your Inquiry",send:"Send Inquiry",
+footer:"Connecting Korea 🇰🇷 with Tajikistan 🇹🇯"
+},
+ko:{
+home:"홈",products:"제품",how:"이용 방법",about:"소개",contact:"문의",
+headline:"한국 제품을 위한 신뢰할 수 있는 무역 파트너",
+intro:"한국 공급업체와 타지키스탄 구매자를 연결합니다. 다양한 제품과 비즈니스 기회를 만나보세요.",
+explore:"제품 둘러보기",productTitle:"한국 제품 살펴보기",productSub:"타지키스탄 시장을 위한 한국 제품을 만나보세요.",
+auto:"자동차 부품",autoDesc:"한국 및 해외 자동차용 부품과 액세서리.",
+beauty:"한국 화장품",beautyDesc:"스킨케어, 뷰티 및 개인 관리 제품.",
+medical:"의료 장비",medicalDesc:"의료 기기와 헬스케어 장비.",
+howTitle:"TradeBridge 이용 방법",howSub:"간단하고 편리한 국제 무역 과정.",
+step1:"제품 찾기",step1d:"한국 공급업체의 제품을 확인하세요.",
+step2:"문의 보내기",step2d:"필요한 제품에 대해 문의하세요.",
+step3:"확인 및 상담",step3d:"가격, 재고 및 배송을 상담하세요.",
+step4:"배송 준비",step4d:"한국에서 타지키스탄까지 배송을 조율하세요.",
+aboutTitle:"TradeBridge.AI 소개",aboutText:"TradeBridge.AI는 한국 공급업체와 타지키스탄 구매자를 연결하기 위한 국제 무역 플랫폼 샘플입니다. 더 쉽고 투명한 해외 구매를 목표로 합니다.",
+contactTitle:"TradeBridge 문의",contactSub:"한국 제품에 관심이 있으신가요? 문의를 보내주세요.",
+name:"이름",email:"이메일 주소",message:"문의 내용",send:"문의 보내기",
+footer:"한국 🇰🇷 과 타지키스탄 🇹🇯 을 연결합니다"
+},
+ru:{
+home:"Главная",products:"Товары",how:"Как это работает",about:"О нас",contact:"Контакты",
+headline:"Ваш надежный мост к корейским товарам",
+intro:"Соединяем корейских поставщиков с покупателями в Таджикистане. Открываем новые товары и возможности для бизнеса.",
+explore:"Посмотреть товары",productTitle:"Корейские товары",productSub:"Товары из Кореи для рынка Таджикистана.",
+auto:"Автозапчасти",autoDesc:"Запчасти и аксессуары для автомобилей.",
+beauty:"Корейская косметика",beautyDesc:"Средства по уходу за кожей и красотой.",
+medical:"Медицинское оборудование",medicalDesc:"Медицинские приборы и оборудование.",
+howTitle:"Как работает TradeBridge",howSub:"Простой процесс международной торговли.",
+step1:"Найти товары",step1d:"Выберите товары корейских поставщиков.",
+step2:"Отправить запрос",step2d:"Сообщите нам о необходимых товарах.",
+step3:"Проверить и подтвердить",step3d:"Обсудите цены, наличие и доставку.",
+step4:"Организовать доставку",step4d:"Согласуйте доставку из Кореи в Таджикистан.",
+aboutTitle:"О TradeBridge.AI",aboutText:"TradeBridge.AI — демонстрационная платформа международной торговли, которая соединяет корейских поставщиков с покупателями из Таджикистана. Наша цель — сделать международные покупки проще и прозрачнее.",
+contactTitle:"Связаться с TradeBridge",contactSub:"Интересуют корейские товары? Отправьте запрос.",
+name:"Ваше имя",email:"Электронная почта",message:"Ваш запрос",send:"Отправить запрос",
+footer:"Соединяем Корею 🇰🇷 и Таджикистан 🇹🇯"
+},
+tg:{
+home:"Асосӣ",products:"Маҳсулот",how:"Тарзи кор",about:"Дар бораи мо",contact:"Тамос",
+headline:"Пули боэътимоди шумо ба маҳсулоти Корея",
+intro:"Таъминкунандагони Кореяро бо харидорони Тоҷикистон мепайвандем. Маҳсулот ва имкониятҳои нави тиҷоратиро кашф кунед.",
+explore:"Дидани маҳсулот",productTitle:"Маҳсулоти Корея",productSub:"Маҳсулот аз Корея барои бозори Тоҷикистон.",
+auto:"Қисмҳои эҳтиётии автомобил",autoDesc:"Қисмҳои эҳтиётӣ ва лавозимоти автомобил.",
+beauty:"Косметикаи Корея",beautyDesc:"Маҳсулоти нигоҳубини пӯст ва зебоӣ.",
+medical:"Таҷҳизоти тиббӣ",medicalDesc:"Асбобҳо ва таҷҳизоти тиббӣ.",
+howTitle:"TradeBridge чӣ гуна кор мекунад",howSub:"Раванди соддаи савдои байналмилалӣ.",
+step1:"Ҷустуҷӯи маҳсулот",step1d:"Маҳсулоти таъминкунандагони Кореяро бинед.",
+step2:"Фиристодани дархост",step2d:"Дар бораи маҳсулоти лозима ба мо нависед.",
+step3:"Санҷиш ва тасдиқ",step3d:"Нарх, мавҷудият ва интиқолро муҳокима кунед.",
+step4:"Ташкили интиқол",step4d:"Интиқол аз Корея ба Тоҷикистонро ҳамоҳанг кунед.",
+aboutTitle:"Дар бораи TradeBridge.AI",aboutText:"TradeBridge.AI намунаи платформаи савдои байналмилалӣ мебошад, ки таъминкунандагони Кореяро бо харидорони Тоҷикистон мепайвандад. Ҳадафи мо содда ва шаффоф кардани хариди байналмилалӣ аст.",
+contactTitle:"Бо TradeBridge тамос гиред",contactSub:"Ба маҳсулоти Корея таваҷҷӯҳ доред? Дархост фиристед.",
+name:"Номи шумо",email:"Суроғаи почтаи электронӣ",message:"Дархости шумо",send:"Фиристодани дархост",
+footer:"Корея 🇰🇷 ва Тоҷикистон 🇹🇯 ро мепайвандем"
+}
+};
+
+function changeLanguage(lang){
+document.documentElement.lang=lang;
+document.querySelectorAll("[data-i]").forEach(el=>{
+const key=el.getAttribute("data-i");
+if(translations[lang][key]) el.textContent=translations[lang][key];
+});
+}
+function sendInquiry(event){
+event.preventDefault();
+alert("Thank you! This is a sample form. Connect a backend or form service to receive inquiries.");
+}
+</script>
+</body>
+</html>
